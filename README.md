@@ -11,7 +11,7 @@ I'm **Revanth Kumar Potu**, a Software/Data Engineer based in the US, with 4 yea
 - ⚡ Previously built streaming pipelines processing **1B+ events/day** at **Capital One**
 - 🎓 Master's in Data Science from **University at Buffalo, SUNY** (GPA: 3.922)
 - 🏗️ Passionate about distributed systems, backend engineering & data platforms
-- 📜 AWS Certified Data Engineer | Confluent Kafka Certified
+- 📜 Snowflake SnowPro Core Certified | AWS Certified Data Engineer | Confluent Kafka Certified | Microsoft Certified Azure Data Engineer 
 - 🎯 Goals: Build scalable systems, contribute to open source, never stop learning
 
 ---
