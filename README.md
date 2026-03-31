@@ -68,17 +68,3 @@ I'm **Revanth Kumar Potu**, a Software/Data Engineer based in the US, with 4 yea
 </p>
 
 ---
-
-## 📊 GitHub Stats
-
-<p>
-  <img src="https://github-readme-stats.vercel.app/api?username=revanthpotu&show_icons=true&theme=radical" alt="GitHub Stats" />
-</p>
-
-<p>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=revanthpotu&theme=radical" alt="GitHub Streak" />
-</p>
-
----
-
-*⭐ Feel free to star my repos if you find them useful!*
