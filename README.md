@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <a href="https://linkedin.com/in/revanthpotu"><b>LinkedIn</b></a> &nbsp;·&nbsp;
+  <a href="https://linkedin.com/in/poturevanth"><b>LinkedIn</b></a> &nbsp;·&nbsp;
   <a href="mailto:poturevanth@gmail.com"><b>Email</b></a> &nbsp;·&nbsp;
   <a href="#aiml-engineering"><b>AI/ML</b></a> &nbsp;·&nbsp;
   <a href="#projects"><b>Projects</b></a> &nbsp;·&nbsp;
