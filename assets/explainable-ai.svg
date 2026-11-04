@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="270" viewBox="0 0 1200 270" role="img" aria-labelledby="title desc">
+  <title id="title">How I make AI auditable</title>
+  <desc id="desc">Source data flows to point-in-time features, then deterministic reason codes select the evidence, an LLM writes the summary, and an analyst reviews it with sources.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B1220"/>
+      <stop offset="100%" stop-color="#14223A"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#5EEAD4"/>
+      <stop offset="100%" stop-color="#818CF8"/>
+    </linearGradient>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#5B6B88"/>
+    </marker>
+    <clipPath id="card"><rect width="1200" height="270" rx="18"/></clipPath>
+  </defs>
+  <style>
+    .sans{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}
+    .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace}
+    .eyebrow{font-size:14px;font-weight:600;letter-spacing:2.5px;fill:#5EEAD4}
+    .box{fill:#0F1A2E;stroke:#2E4066;stroke-width:1.5}
+    .rule{stroke:#5EEAD4;stroke-width:2}
+    .llm{stroke:#818CF8;stroke-width:2;animation:pulse 2.4s ease-in-out infinite}
+    .step{font-size:11px;fill:#64748B;letter-spacing:1px}
+    .btitle{font-size:17px;font-weight:700;fill:#F8FAFC}
+    .bsub{font-size:13px;fill:#94A3B8}
+    .flow{stroke:#5B6B88;stroke-width:2;stroke-dasharray:5 5;animation:dash 1s linear infinite}
+    .caption{font-size:15px;fill:#94A3B8}
+    @keyframes dash{to{stroke-dashoffset:-10}}
+    @keyframes pulse{0%,100%{stroke-opacity:.35}50%{stroke-opacity:1}}
+    @media (prefers-reduced-motion:reduce){.flow,.llm{animation:none}}
+  </style>
+
+  <g clip-path="url(#card)">
+    <rect width="1200" height="270" fill="url(#bg)"/>
+    <rect width="1200" height="4" fill="url(#accent)"/>
+  </g>
+
+  <text x="40" y="46" class="mono eyebrow">HOW I MAKE AI AUDITABLE</text>
+
+  <rect x="38" y="76" width="196" height="104" rx="12" class="box"/>
+  <rect x="270" y="76" width="196" height="104" rx="12" class="box"/>
+  <rect x="502" y="76" width="196" height="104" rx="12" class="box rule"/>
+  <rect x="734" y="76" width="196" height="104" rx="12" class="box llm"/>
+  <rect x="966" y="76" width="196" height="104" rx="12" class="box"/>
+
+  <line x1="238" y1="128" x2="264" y2="128" class="flow" marker-end="url(#arrow)"/>
+  <line x1="470" y1="128" x2="496" y2="128" class="flow" marker-end="url(#arrow)"/>
+  <line x1="702" y1="128" x2="728" y2="128" class="flow" marker-end="url(#arrow)"/>
+  <line x1="934" y1="128" x2="960" y2="128" class="flow" marker-end="url(#arrow)"/>
+
+  <text x="54" y="100" class="mono step">01</text>
+  <text x="136" y="134" text-anchor="middle" class="sans btitle">Source data</text>
+  <text x="136" y="158" text-anchor="middle" class="sans bsub">APIs · JSON · Kafka</text>
+
+  <text x="286" y="100" class="mono step">02</text>
+  <text x="368" y="134" text-anchor="middle" class="sans btitle">Features</text>
+  <text x="368" y="158" text-anchor="middle" class="sans bsub">point-in-time, no leakage</text>
+
+  <text x="518" y="100" class="mono step">03</text>
+  <text x="600" y="134" text-anchor="middle" class="sans btitle">Reason codes</text>
+  <text x="600" y="158" text-anchor="middle" class="sans bsub">deterministic evidence</text>
+
+  <text x="750" y="100" class="mono step">04</text>
+  <text x="832" y="134" text-anchor="middle" class="sans btitle">LLM summary</text>
+  <text x="832" y="158" text-anchor="middle" class="sans bsub">explains, never decides</text>
+
+  <text x="982" y="100" class="mono step">05</text>
+  <text x="1064" y="134" text-anchor="middle" class="sans btitle">Analyst review</text>
+  <text x="1064" y="158" text-anchor="middle" class="sans bsub">every claim has a source</text>
+
+  <text x="600" y="226" text-anchor="middle" class="sans caption">Rules select the evidence. The model only explains it, so every summary traces back to source data.</text>
+</svg>
