@@ -1,87 +1,54 @@
-# Hey 👋 What's up?
+# L P Revanth Kumar Potu
 
-I'm **Revanth Kumar Potu**, a Software/Data Engineer based in the US, with 4 years of experience building distributed data and backend systems. I love working with high-throughput streaming pipelines, multi-threaded systems, and scalable cloud infrastructure.
+Data Engineer focused on AI/ML with 3+ years building batch and streaming data platforms in banking and federal healthcare.
 
-[![Visitors](https://visitor-badge.laobi.icu/badge?page_id=revanthpotu.revanthpotu)](https://github.com/revanthpotu)
+**Now:** Data Engineer, AI/ML at C-HIT, building provider-data pipelines, data-quality controls and explainable GenAI workflows for the Centers for Medicare & Medicaid Services.
 
----
+**Before:** Data Engineer at Capital One, building Databricks pipelines that processed 1–2 TB/day into Delta Lake, and streaming pipelines processing 1B+ events/day.
 
-## 🙋‍♂️ About Me
+**Certified:** AWS Data Engineer – Associate · SnowPro Core · Confluent Certified Developer for Apache Kafka
 
-- ⚡ Previously built streaming pipelines processing **1B+ events/day** at **Capital One**
-- 🎓 Master's in Data Science from **University at Buffalo, SUNY** (GPA: 3.922)
-- 🏗️ Passionate about distributed systems, backend engineering & data platforms
-- 📜 Snowflake SnowPro Core Certified | AWS Certified Data Engineer | Confluent Kafka Certified | Microsoft Certified Azure Data Engineer 
-- 🎯 Goals: Build scalable systems, contribute to open source, never stop learning
+## What I work on
 
----
-## 🛠️ I Code With
+- Batch and streaming ETL/ELT with Kafka, PySpark, Databricks and Delta Lake
+- Data quality, reconciliation and point-in-time ML feature engineering
+- GenAI workflows on Amazon Bedrock and LLM-backed analyst tools
 
-### Languages
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" />
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
-  <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/PySpark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white" />
-</p>
+## Projects
 
-### Data & Streaming
-<p>
-  <img src="https://img.shields.io/badge/Apache%20Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white" />
-  <img src="https://img.shields.io/badge/Apache%20Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white" />
-  <img src="https://img.shields.io/badge/Apache%20Airflow-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white" />
-  <img src="https://img.shields.io/badge/Snowflake-29B5E8?style=for-the-badge&logo=snowflake&logoColor=white" />
-  <img src="https://img.shields.io/badge/Databricks-FF3621?style=for-the-badge&logo=databricks&logoColor=white" />
-  <img src="https://img.shields.io/badge/Delta%20Lake-003366?style=for-the-badge&logo=deltalake&logoColor=white" />
-  <img src="https://img.shields.io/badge/Amazon%20Redshift-8C4FFF?style=for-the-badge&logo=amazonredshift&logoColor=white" />
-</p>
+| Project | What it shows | Stack |
+|---|---|—|
+| [HealthStream v2](https://github.com/Revanthpotu/healthstream-v2-realtime-decision-intelligence) | Real-time healthcare pipeline that combines streaming vitals with an ML readmission-risk model | Kafka, ksqlDB, Snowflake Cortex ML, Redis, Python |
+| [dbt + Snowflake ELT](https://github.com/Revanthpotu/dbt-snowflake-elt-pipeline) | Layered dbt models with fact and dimension tables, tests and CI | dbt Core, Snowflake, DuckDB, GitHub Actions |
+| [Data Quality Framework](https://github.com/Revanthpotu/data-quality-framework) | Great Expectations suites for completeness, validity and referential integrity | Python, Great Expectations, pytest |
+| [RAG Pipeline](https://github.com/Revanthpotu/rag-pipeline-langchain) | PDF question answering with local embeddings and a local LLM | LangChain, ChromaDB, Ollama |
 
-### Cloud & DevOps
-<p>
-  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white" />
-  <img src="https://img.shields.io/badge/S3-569A31?style=for-the-badge&logo=amazons3&logoColor=white" />
-  <img src="https://img.shields.io/badge/Lambda-FF9900?style=for-the-badge&logo=awslambda&logoColor=white" />
-  <img src="https://img.shields.io/badge/AWS%20Glue-8C4FFF?style=for-the-badge&logo=amazonwebservices&logoColor=white" />
-  <img src="https://img.shields.io/badge/EMR-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white" />
-  <img src="https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" />
-  <img src="https://img.shields.io/badge/Azure%20Data%20Factory-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" />
-  <img src="https://img.shields.io/badge/Helm-0F1689?style=for-the-badge&logo=helm&logoColor=white" />
-  <img src="https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" />
-  <img src="https://img.shields.io/badge/AWS%20CodePipeline-FF9900?style=for-the-badge&logo=amazonwebservices&logoColor=white" />
-</p>
+All project data is synthetic or sample data. Nothing here comes from an employer.
 
-### Systems & Observability
-<p>
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
-  <img src="https://img.shields.io/badge/REST%20APIs-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
-  <img src="https://img.shields.io/badge/Multithreading-0052CC?style=for-the-badge&logo=threads&logoColor=white" />
-  <img src="https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white" />
-  <img src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white" />
-  <img src="https://img.shields.io/badge/CloudWatch-FF4F8B?style=for-the-badge&logo=amazoncloudwatch&logoColor=white" />
-</p>
+## Tech
 
-### Tools & Collaboration
-<p>
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
-  <img src="https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white" />
-  <img src="https://img.shields.io/badge/Confluence-172B4D?style=for-the-badge&logo=confluence&logoColor=white" />
-</p>
----
+Python · SQL · PySpark · Spark Structured Streaming · Kafka · Databricks · Delta Lake · Snowflake · dbt · Airflow · AWS · Terraform · Docker · Kubernetes
 
-## 📫 Connect With Me
+## Contact
 
-<p>
-  <a href="https://linkedin.com/in/revanthpotu" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="mailto:poturevanth@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-</p>
+[LinkedIn](https://linkedin.com/in/revanthpotu) · poturevanth@gmail.com
 
----
+<details>
+<summary>All certifications</summary>
+
+- [AWS Certified Data Engineer – Associate](https://www.credly.com/badges/1826a5b5-f261-41ef-b614-f1cd6d31eb7d), Amazon Web Services, issued November 2024
+- [SnowPro Core Certification](https://achieve.snowflake.com/356327b2-036e-49fc-a75c-dcccecb8934b), Snowflake, issued March 2025
+- [Confluent Certified Developer for Apache Kafka, CCDAK](https://certificates.confluent.io/ea628802-aa1a-4523-87a1-a144e121f671), Confluent, issued July 2026
+- [Salesforce Certified MuleSoft Integration Foundations](https://www.salesforce.com/trailblazer/mdmjedmyu6pcrufvvr), Salesforce, issued July 2026
+- [Microsoft Certified: Azure Data Engineer Associate, DP-203](https://learn.microsoft.com/en-us/users/lakshmipraneethrevanthkumarpotu-1951/credentials/c6c3f4b40cf7dc26), Microsoft, earned February 2024, retired by Microsoft in 2025
+</details>
+
+<details>
+<summary>Experience and education</summary>
+
+- Data Engineer, AI/ML, C-HIT, client Centers for Medicare & Medicaid Services, Aug 2026 to present
+- Data Engineer, Capital One, Mar 2024 to Jul 2026
+- Research Assistant, University at Buffalo, 2023
+- Data Engineer, ServiceNow, 2022
+- MS Data Science, University at Buffalo
+</details>
